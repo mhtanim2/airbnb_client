@@ -9,9 +9,9 @@ export const menuItemsWithCategory =(searchKeyword) => {
   axiosInstance
     .get("/places/category/" + searchKeyword)
     .then((res) => {
-      debugger;
+      
       if (res.status === 200 && res.data["data"].length > 0) {
-        debugger;
+        
         store.dispatch(setMenuItemList(res.data["data"]));
       } else {
         store.dispatch(setMenuItemList([]));

@@ -38,7 +38,7 @@ const Search = () => {
        
        <input  ref={(input) => (inputRef = input)} class="placeholder:italic block 
        text-center
-       border rounded-full ml-3 py-2 shadow-sm focus:outline-none focus:border-pink-500 focus:ring-pink-500 focus:ring-1 sm:text-sm" placeholder="Anywhere" type="text" name="search"/>
+       border rounded-full ml-3 py-2 shadow-sm focus:outline-none focus:border-rose-500 focus:ring-rose-500 focus:ring-1 sm:text-sm" placeholder="Anywhere" type="text" name="search"/>
 
         <div
           className="
